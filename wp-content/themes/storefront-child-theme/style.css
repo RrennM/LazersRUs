@@ -1,0 +1,17 @@
+/*
+ Theme Name:   Storefront Theme Child
+ Theme URI:    http://example.com/storefront-theme-child/
+ Description:  Storefront Child Theme - Lazers-R-Us
+ Author:       Tyson Hood!
+ Author URI:   http://example.com
+ Template:     storefront
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  storefront-theme-child
+*/
+
+@import url("../storefront/style.css");
+
+#masthead {
+	background-color: #fff;
+}
