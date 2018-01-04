@@ -12,6 +12,163 @@
 
 @import url("../storefront/style.css");
 
+/*HEADER STYLES*/
 #masthead {
 	background-color: #fff;
 }
+
+.site-header .site-branding {
+	width: 23%;
+	min-width: 100px;
+}
+.site-branding .site-title {
+	min-width: 200px;
+}
+.site-branding .site-title a {
+	/*font-size: 48px;*/
+}
+.site-branding .site-description {
+	min-width: 250px;
+}
+
+.main-navigation a {
+	font-weight: 700;
+}
+
+.site-header .widget_shopping_cart li, .site-header .widget_shopping_cart p.buttons,
+  .site-header .widget_shopping_cart p.total {
+	background-color: #ddd;
+}
+
+/*END HEADER STYLES*/
+
+
+
+/*GENERAL PAGE STYLES*/
+/*.woocommerce-breadcrumb {
+	display: none;
+}*/
+
+.entry-header {
+	text-align: center;
+}
+
+/*END GENERAL PAGE STYLES*/
+
+
+
+/*HOMEPAGE STYLES*/
+.home {
+	width: 100%;
+	background-color: #5aaf54;
+}
+
+.home .site-header {
+	display: none;
+}
+
+.home .main-content {
+	display: block;
+	padding: 4em;
+	width: 100%;
+}
+
+.home .content {
+	background-color: #eee;
+	max-width: 600px;
+	padding: 3em;
+	width: 50%;
+}
+.home .content h1 {
+	font: 700 2.25em/1.5 'Montserrat', 'OpenSans', Arial, sans-serif;
+	margin: 0 0 1em;
+}
+.home .content p {
+	font: 1em/2 'OpenSans', Arial, sans-serif;
+	margin-bottom: 2em;
+}
+.home .content p a {
+	font-weight: 600;
+	text-decoration: underline;
+	color: #3b3b3b;
+}
+.home .btn {
+	background: #45ac9d;
+	color: #fff;
+	font: 700 1.125em/3.5 'Montserrat', 'OpenSans', Arial, sans-serif;
+	display: inline-block;
+	height: 3.5em;
+	width: 100%;
+	padding: 0 1.25em;
+	text-align: center;
+	text-decoration: none;
+}
+
+.home .site-footer {
+	display: none;
+}
+
+/* media queries */
+@media (min-width: 768px) {
+	.home .main-content {
+		float: right;
+	}
+	.home .content {
+		float: right;
+	}
+}
+/*END HOMEPAGE STYLES*/
+
+
+/*CONTACT PAGE STYLES*/
+.page-id-19 .woocommerce-breadcrumb {
+	display: none;
+}
+
+#nf-field-1-container, #nf-field-2-container {
+	width: 47%;
+	display: inline-block;
+}
+#nf-field-1-container {
+	margin-right: 5%;
+}
+#nf-field-4 {
+	float: right;
+	width: 8em;
+}
+
+/*END CONTACT PAGE STYLES*/
+
+
+/*SHOP STYLES*/
+/*.archive .woocommerce-breadcrumb, .page-id-53 .woocommerce-breadcrumb, .page-id-55 .woocommerce-breadcrumb, {
+	display: block;
+}*/
+
+.woocommerce .page-description .category {
+	border: 1px solid black;
+	display: inline-block;
+	height: auto;
+	margin: 0.5em;
+	width: 47%;
+}
+.woocommerce .page-description .category img {
+	margin: 0 auto;
+	width: 90%;
+}
+
+.archive.tax-product_cat .storefront-sorting, .archive.tax-product_cat .columns-3 {
+	display: block;
+}
+
+.archive.tax-product_cat ul.products li.product img {
+	width: 100%;
+}
+/*END SHOP STYLES*/
+
+/*ABOUT PAGE STYLES*/
+.page-id-14 .woocommerce-breadcrumb {
+	display: none;
+}
+
+/*END ABOUT PAGE STYLES*/
